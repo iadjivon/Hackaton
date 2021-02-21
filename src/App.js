@@ -4,20 +4,37 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <div className="header">
+        <h1> this is the header</h1>
+
+      </div>
+
+
+    <div className="main">
+      <div className="work">
+        <h1> this is the header</h1>
+
+      </div>
+
+      <div className="life">
+        <h1> this is the life todo</h1>
+
+      </div>
+
+      <div className="sticky">
+        <h1> this is the the sticky </h1>
+
+      </div>
+   </div>
+
+   <div className="credits">
+     <h3> built for PearlHack 2021 by Ida Adjivon and Kelly D'Oleo.</h3>
+   </div>
+      
+
+
+
     </div>
   );
 }
